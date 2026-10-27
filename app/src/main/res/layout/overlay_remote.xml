@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/remoteContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#D91A1A1A"
+    android:elevation="8dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Кнопка ПЛЮС (увеличить скорость) -->
+    <Button
+        android:id="@+id/btnRemotePlus"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#2C2C2E"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Кнопка МИНУС (уменьшить скорость) -->
+    <Button
+        android:id="@+id/btnRemoteMinus"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#2C2C2E"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Кнопка ПАУЗА (две параллельные линии ❚❚, работа по зажатию) -->
+    <Button
+        android:id="@+id/btnRemotePause"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#2196F3"
+        android:text="❚❚"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
